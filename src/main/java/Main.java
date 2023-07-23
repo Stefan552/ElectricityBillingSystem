@@ -166,6 +166,7 @@ public class Main {
 
         frame.setPreferredSize(new Dimension(500, 350));
         frame.pack();
+        frame.setLocationRelativeTo ( null );
         frame.setVisible(true);
     }
 }
